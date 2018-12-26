@@ -25,7 +25,7 @@ export default () => (
       </p>
       <h4 className="faquestion">Who are the people behind Seen?</h4>
       <p className="faqanswer">
-        Máté, Blanka & Peti. You are always welcome to visit our{" "}
+        Máté, Blanka &amp; Peti. You are always welcome to visit our{" "}
         <a href="/about">about page</a>
       </p>
       <h4 className="faquestion">How do I use the website?</h4>
