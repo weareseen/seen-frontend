@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "mdbreact";
 
-const seendex = (
+export default () => (
   <div id="seendex">
     <NavLink to="/">
       <img
@@ -54,11 +54,3 @@ const seendex = (
     </div>
   </div>
 );
-
-class Seendex extends Component {
-  render() {
-    return seendex;
-  }
-}
-
-export default Seendex;

@@ -11,7 +11,7 @@ import LoginPage from "./components/loginpage.js";
 import Loading from "./components/loading.js";
 import Profile from "./components/profile.js";
 import Meccsek from "./components/mecsek.jsx";
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
 
 class App extends Component {
