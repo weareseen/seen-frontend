@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const faqContent = (
+export default () => (
   <div className="faqpage">
     <h1 className="faqtitle">frequently asked questions</h1>
     <div className="faqcontainer">
@@ -47,11 +47,3 @@ const faqContent = (
     </div>
   </div>
 );
-
-class Faq extends Component {
-  render() {
-    return faqContent;
-  }
-}
-
-export default Faq;
