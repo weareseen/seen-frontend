@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-const faqContent = (
+export default () => (
   <div className="faqpage">
     <h1 className="faqtitle">frequently asked questions</h1>
     <div className="faqcontainer">
@@ -25,7 +25,7 @@ const faqContent = (
       </p>
       <h4 className="faquestion">Who are the people behind Seen?</h4>
       <p className="faqanswer">
-        Máté, Blanka & Peti. You are always welcome to visit our{" "}
+        Máté, Blanka &amp; Peti. You are always welcome to visit our{" "}
         <a href="/about">about page</a>
       </p>
       <h4 className="faquestion">How do I use the website?</h4>
@@ -47,11 +47,3 @@ const faqContent = (
     </div>
   </div>
 );
-
-class Faq extends Component {
-  render() {
-    return faqContent;
-  }
-}
-
-export default Faq;

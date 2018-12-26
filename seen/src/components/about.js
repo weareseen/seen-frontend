@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import lng from './Language/language.jsx'; 
 
-class About extends Component {
-  render() {
-    const aboutContent = (
+export default () => (
       <div className="aboutus">
         <h1 className="abouttitle">{lng.seen}</h1>
         <div id="about-container">
@@ -62,8 +60,3 @@ class About extends Component {
         </div>
       </div>
     );
-    return aboutContent;
-  }
-}
-
-export default About;
